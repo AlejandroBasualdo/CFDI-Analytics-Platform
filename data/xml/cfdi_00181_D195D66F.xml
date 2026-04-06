@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-166723" Fecha="2023-12-29T18:49:00" SubTotal="53689.85" Total="62280.23" TipoDeComprobante="I" MetodoPago="PUE" FormaPago="04" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="FIN920315KL8" Nombre="FERRETERIA INDUSTRIAL DEL NORTE SA DE CV" UsoCFDI="I03" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80101500" Cantidad="61" ClaveUnidad="H87" Descripcion="Consultoría en procesos industriales" ValorUnitario="5368.98" Importe="53689.85"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="8590.38">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="53689.85" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="8590.38"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="D195D66F-5990-4E70-8557-DA5DEA76EFE8" FechaTimbrado="2023-12-29T18:49:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

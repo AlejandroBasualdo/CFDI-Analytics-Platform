@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-153410" Fecha="2025-01-11T14:13:00" SubTotal="12155.71" Total="14100.62" TipoDeComprobante="I" MetodoPago="PUE" FormaPago="03" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="TEC040817FG3" Nombre="TECNOLOGIA INDUSTRIAL SA DE CV" UsoCFDI="I01" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="31161500" Cantidad="71" ClaveUnidad="H87" Descripcion="Tornillería industrial especializada" ValorUnitario="2431.14" Importe="12155.71"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="1944.91">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="12155.71" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1944.91"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="DB63890D-395B-4AFA-B18A-6C2BE5012C6E" FechaTimbrado="2025-01-11T14:13:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

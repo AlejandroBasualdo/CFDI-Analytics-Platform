@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-377773" Fecha="2025-02-02T14:08:00" SubTotal="53936.53" Total="62566.37" TipoDeComprobante="I" MetodoPago="PPD" FormaPago="01" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="TMA011228PQ3" Nombre="TRANSPORTES MARTINEZ SA DE CV" UsoCFDI="G01" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80101500" Cantidad="38" ClaveUnidad="H87" Descripcion="Consultoría en procesos industriales" ValorUnitario="10787.31" Importe="53936.53"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="8629.84">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="53936.53" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="8629.84"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="D0E105F2-A2EF-4697-8215-DCDBDAF93217" FechaTimbrado="2025-02-02T14:08:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-139786" Fecha="2024-08-04T14:49:00" SubTotal="20360.67" Total="23618.38" TipoDeComprobante="I" MetodoPago="PUE" FormaPago="01" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="SME030610RS7" Nombre="SUMINISTROS METALICOS DEL ESTE SA DE CV" UsoCFDI="G01" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80101500" Cantidad="70" ClaveUnidad="H87" Descripcion="Consultoría en procesos industriales" ValorUnitario="5090.17" Importe="20360.67"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="3257.71">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="20360.67" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3257.71"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="E55F9E6C-ADDD-41C6-B22C-43778DEA17DC" FechaTimbrado="2024-08-04T14:49:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

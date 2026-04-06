@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-534670" Fecha="2025-02-17T09:07:00" SubTotal="63039.29" Total="73125.58" TipoDeComprobante="I" MetodoPago="PUE" FormaPago="03" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="IND991130XY4" Nombre="INDUSTRIAS DEL NORESTE SA DE CV" UsoCFDI="I01" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="72154400" Cantidad="32" ClaveUnidad="H87" Descripcion="Lámina de acero galvanizado calibre 20" ValorUnitario="63039.29" Importe="63039.29"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="10086.29">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="63039.29" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="10086.29"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="2DB84B25-31AD-415F-B60C-38EC0C76FC58" FechaTimbrado="2025-02-17T09:07:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

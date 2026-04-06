@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-465126" Fecha="2022-05-18T15:44:00" SubTotal="28970.59" Total="33605.88" TipoDeComprobante="I" MetodoPago="PPD" FormaPago="28" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="PRO760415VW9" Nombre="PROVEEDORA REGIOMONTANA SA DE CV" UsoCFDI="I01" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="31201500" Cantidad="9" ClaveUnidad="H87" Descripcion="Pintura epóxica industrial" ValorUnitario="9656.86" Importe="28970.59"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="4635.29">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="28970.59" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4635.29"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="28D2E9FF-4394-4617-9BA2-28C4AD96F4F9" FechaTimbrado="2022-05-18T15:44:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
