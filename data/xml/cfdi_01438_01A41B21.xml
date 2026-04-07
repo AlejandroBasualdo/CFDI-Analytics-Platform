@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-923342" Fecha="2022-04-24T13:45:00" SubTotal="73813.85" Total="85624.07" TipoDeComprobante="I" MetodoPago="PPD" FormaPago="03" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="SME030610RS7" Nombre="SUMINISTROS METALICOS DEL ESTE SA DE CV" UsoCFDI="G01" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="11101700" Cantidad="83" ClaveUnidad="H87" Descripcion="Materia prima aluminio extruido" ValorUnitario="12302.31" Importe="73813.85"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="11810.22">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="73813.85" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="11810.22"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="01A41B21-70F1-4240-80CC-25E8B14409D1" FechaTimbrado="2022-04-24T13:45:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

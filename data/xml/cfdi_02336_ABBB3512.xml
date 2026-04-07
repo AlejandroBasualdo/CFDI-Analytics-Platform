@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-410060" Fecha="2023-04-24T14:35:00" SubTotal="6983.93" Total="8101.36" TipoDeComprobante="I" MetodoPago="PUE" FormaPago="04" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="SER950318BC1" Nombre="SERVICIOS ESPECIALIZADOS SA DE CV" UsoCFDI="G03" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="78101800" Cantidad="82" ClaveUnidad="H87" Descripcion="Transporte de carga terrestre" ValorUnitario="3491.97" Importe="6983.93"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="1117.43">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="6983.93" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1117.43"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="ABBB3512-B9A7-48C0-96DF-06732B851CC0" FechaTimbrado="2023-04-24T14:35:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

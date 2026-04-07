@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-879280" Fecha="2025-01-08T11:38:00" SubTotal="7194.96" Total="8346.15" TipoDeComprobante="I" MetodoPago="PUE" FormaPago="02" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="LIN850101TU2" Nombre="LOGISTICA INTEGRAL NORESTE SA DE CV" UsoCFDI="G03" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="72103200" Cantidad="94" ClaveUnidad="H87" Descripcion="Servicio de soldadura MIG/TIG" ValorUnitario="2398.32" Importe="7194.96"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="1151.19">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="7194.96" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1151.19"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="076A07D2-2AFD-439F-8502-23FB73BE029B" FechaTimbrado="2025-01-08T11:38:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

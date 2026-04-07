@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.0" Serie="A" Folio="A-390731" Fecha="2024-11-20T09:10:00" SubTotal="11814.46" Total="13704.77" TipoDeComprobante="I" MetodoPago="PUE" FormaPago="01" Moneda="MXN">
+  <cfdi:Emisor Rfc="ANO850312AB1" Nombre="ACEROS DEL NORTE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="COM880722ZA6" Nombre="COMERCIALIZADORA MTY SA DE CV" UsoCFDI="G01" RegimenFiscalReceptor="601" DomicilioFiscalReceptor="64000"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="76111500" Cantidad="7" ClaveUnidad="H87" Descripcion="Servicio de mantenimiento industrial" ValorUnitario="11814.46" Importe="11814.46"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="1890.31">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="11814.46" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1890.31"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="C33A2799-61EC-41A3-9662-A4AAC77E4837" FechaTimbrado="2024-11-20T09:10:00" NoCertificadoSAT="20001000000300022323" SelloCFD="SIMULADO" SelloSAT="SIMULADO"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

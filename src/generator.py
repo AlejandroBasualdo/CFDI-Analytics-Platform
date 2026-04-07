@@ -163,4 +163,4 @@ def generar_dataset(n=500, output_dir="data/xml"):
     print(f"[Generator] Anomalías: {anomalias} | Duplicados: {duplicados}")
 
 if __name__ == "__main__":
-    generar_dataset(n=500)
+    generar_dataset(n=10000)
