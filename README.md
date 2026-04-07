@@ -1,5 +1,8 @@
 # CFDI Analytics Platform
 
+![Dashboard principal](1.png)
+![Gráficas y análisis](2.png)
+![Alertas de auditoría](3.png)
 > Sistema integral de análisis de Comprobantes Fiscales Digitales por Internet (CFDI 4.0) — Facturación electrónica mexicana con Machine Learning, NLP y API REST.
 
 **Empresa simulada:** Aceros del Norte S.A. de C.V. · RFC: ANO850312AB1 · Monterrey, Nuevo León
