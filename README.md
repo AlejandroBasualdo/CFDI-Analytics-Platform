@@ -34,16 +34,25 @@ Plataforma empresarial end-to-end que automatiza el ciclo completo de facturaci�
 ## Arquitectura del pipeline
 
 XMLs CFDI 4.0
+
 ↓
+
 Parser (lxml) — extrae 20+ campos por factura
+
 ↓
+
 Validador fiscal — 9 reglas del SAT 2024
+
 ↓
+
 Pipeline ETL — PostgreSQL 18 local
+
 ↓
+
 Isolation Forest — detección de anomalías
 spaCy ES        — clasificación de conceptos
 FuzzyWuzzy      — conciliación bancaria
+
 ↓
 Dashboard Streamlit + Plotly
 API REST FastAPI — integración con ERP/SAP
